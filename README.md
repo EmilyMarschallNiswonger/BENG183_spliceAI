@@ -1,4 +1,4 @@
-## SpliceAI: An deep learning RNA splicing predictor
+## SpliceAI: A deep learning RNA-splicing predictor
 
 Ryan Izadshenas, Srisarada Ramesh, Emily Marschall-Niswonger
 
@@ -114,5 +114,6 @@ This leaves us with 76 variants that may be pathogenic because of their splice-a
 
 ### References
 Jaganathan, K. (2024, July 24). SpliceAI (ClinGen Biocurator Working Group). YouTube. https://www.youtube.com/watch?v=oJvhj-tYbBI&t=1085s 
+
 Landrum, M. J., Lee, J. M., Benson, M., Brown, G. R., Chao, C., Chitipiralla, S., Gu, B., Hart, J., Hoffman, D., Jang, W., Karapetyan, K., Katz, K., Liu, C., Maddipatla, Z., Malheiro, A., McDaniel, K., Ovetsky, M., Riley, G., Zhou, G., Holmes, J. B., … Maglott, D. R. (2018). ClinVar: improving access to variant interpretations and supporting evidence. Nucleic acids research, 46(D1), D1062–D1067. https://doi.org/10.1093/nar/gkx1153
 
