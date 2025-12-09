@@ -30,7 +30,7 @@ Deep learning is a branch of machine learning that uses multi-layered neural net
 
 A deep learning model is built from layers of interconnected “neurons,” each transforming input information in small ways. As data passes through multiple layers, the network learns increasingly abstract representations. For example, in image analysis, early layers learn edges, while deeper layers recognize shapes or objects. Training occurs by adjusting the strength of connections between neurons to minimize prediction errors.
 
-SpliceAI applies this model to genomic sequences. Instead of learning visual patterns, it learns the subtle sequence characteristics that determine where splicing occurs. The network considers long-range sequence context—thousands of nucleotides upstream and downstream of a variant—allowing it to detect regulatory signals that older splice prediction tools often miss. During training, the model was shown large numbers of real human transcripts paired with their genomic sequences, enabling it to learn where true splice donor and acceptor sites exist. While the transcriptome and genome of one human has sufficient information to train SpliceAI, the algorithm was trained with over 100 human samples to reduce noise and offered very promising results when tested. SpliceAI was trained on chromosomes 1, 3, 5, 7, and 9 and tested with all other chromosomes.
+SpliceAI applies this model to genomic sequences. According to Jaganathan (2020), instead of learning visual patterns, it learns the subtle sequence characteristics that determine where splicing occurs. The network considers long-range sequence context—thousands of nucleotides upstream and downstream of a variant—allowing it to detect regulatory signals that older splice prediction tools often miss. During training, the model was shown large numbers of real human transcripts paired with their genomic sequences, enabling it to learn where true splice donor and acceptor sites exist. While the transcriptome and genome of one human has sufficient information to train SpliceAI, the algorithm was trained with over 100 human samples to reduce noise and offered very promising results when tested. SpliceAI was trained on chromosomes 1, 3, 5, 7, and 9 and tested with all other chromosomes.
 
 By comparing the splicing predictions for the reference sequence and the mutated sequence, SpliceAI calculates whether a variant is likely to create or disrupt splice sites. This deep learning approach gives SpliceAI unmatched accuracy for detecting cryptic splice events and predicting the functional impact of many noncoding and synonymous variants.
 
@@ -42,7 +42,7 @@ Users must also provide a genome .fa file and an annotation file. There are anno
 
 ### Worked Example
 
-Starting with an input `.vcf` file from Clinvar, a database of known genetic variants and their pathogenecity as found experimentally, use bcftools to trim the file (containing the entire database) to just the gene of interest: MAPT.
+Starting with an input `.vcf` file from Clinvar (2018), a database of known genetic variants and their pathogenecity as found experimentally, use bcftools to trim the file (containing the entire database) to just the gene of interest: MAPT.
 
 ```bash
 # Download ClinVar VCF (still large, ~2GB compressed)
@@ -111,3 +111,8 @@ sig_results = clinvar[
 <img width="2058" height="366" alt="image" src="https://github.com/user-attachments/assets/a1d516a0-c729-4d1b-9ff7-005e77f7ae93" />
 
 This leaves us with 76 variants that may be pathogenic because of their splice-altering effects. This can be a foundation for further review, or more analysis into the false negatives/positives produced by SpliceAI
+
+### References
+Jaganathan, K. (2024, July 24). SpliceAI (ClinGen Biocurator Working Group). YouTube. https://www.youtube.com/watch?v=oJvhj-tYbBI&t=1085s 
+Landrum, M. J., Lee, J. M., Benson, M., Brown, G. R., Chao, C., Chitipiralla, S., Gu, B., Hart, J., Hoffman, D., Jang, W., Karapetyan, K., Katz, K., Liu, C., Maddipatla, Z., Malheiro, A., McDaniel, K., Ovetsky, M., Riley, G., Zhou, G., Holmes, J. B., … Maglott, D. R. (2018). ClinVar: improving access to variant interpretations and supporting evidence. Nucleic acids research, 46(D1), D1062–D1067. https://doi.org/10.1093/nar/gkx1153
+
