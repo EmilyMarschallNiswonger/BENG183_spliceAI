@@ -36,7 +36,7 @@ By comparing the splicing predictions for the reference sequence and the mutated
 
 ### Workflow
 
-The user workflow is very simple, with few inputs and parameters. The user needs a .vcf (variant call format) file containing a list of variants to investigate, as well as a .vcf file name that they want their output stored. .vcf file format contains metadata as a header and a row for each variant with relevant information. More can be learned about .vcf file format [here](https://samtools.github.io/hts-specs/VCFv4.2.pdf).![alt text]
+The user workflow is very simple, with few inputs and parameters. The user needs a .vcf (variant call format) file containing a list of variants to investigate, as well as a .vcf file name that they want their output stored. .vcf file format contains metadata as a header and a row for each variant with relevant information. More can be learned about .vcf file format [here](https://samtools.github.io/hts-specs/VCFv4.2.pdf).
 <img width="1414" height="532" alt="image" src="https://github.com/user-attachments/assets/d7940bd0-ddc6-43a6-94b0-1be97e5b3e93" />
 Users must also provide a genome .fa file and an annotation file. There are annotation files for the most common genomes and one just needs to specify which genome they are providing as input.
 
