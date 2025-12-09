@@ -36,7 +36,9 @@ By comparing the splicing predictions for the reference sequence and the mutated
 
 ### Workflow
 
-The user workflow is very simple, with few inputs and parameters. The user needs a .vcf (variant call format) file containing a list of variants to investigate, as well as a .vcf file name that they want their output stored. .vcf file format contains metadata as a header and a row for each variant with relevant information. More can be learned about .vcf file format [here](https://samtools.github.io/hts-specs/VCFv4.2.pdf).![alt text](image-3.png)Users must also provide a genome .fa file and an annotation file. There are annotation files for the most common genomes and one just needs to specify which genome they are providing as input.
+The user workflow is very simple, with few inputs and parameters. The user needs a .vcf (variant call format) file containing a list of variants to investigate, as well as a .vcf file name that they want their output stored. .vcf file format contains metadata as a header and a row for each variant with relevant information. More can be learned about .vcf file format [here](https://samtools.github.io/hts-specs/VCFv4.2.pdf).![alt text]
+<img width="1414" height="532" alt="image" src="https://github.com/user-attachments/assets/d7940bd0-ddc6-43a6-94b0-1be97e5b3e93" />
+Users must also provide a genome .fa file and an annotation file. There are annotation files for the most common genomes and one just needs to specify which genome they are providing as input.
 
 ### Worked Example
 
@@ -70,7 +72,8 @@ import pandas as pd
 clinvar = pd.read_csv('output.vcf', sep="\t", comment='#')
 ```
 
-![alt text](image.png)
+<img width="1798" height="726" alt="image" src="https://github.com/user-attachments/assets/1c880c0c-e60b-4ab2-968d-9ee4cf5cf825" />
+
 
 The initial dataframe isn't very useful as all the relavent data is in one column, so more processing is required to separate the columns.
 
@@ -89,7 +92,8 @@ for name in clmns:
     clinvar[name] = pd.to_numeric(clinvar[name], errors='coerce')
 ```
 
-![alt text](image-1.png)
+<img width="1922" height="372" alt="image" src="https://github.com/user-attachments/assets/70d5d2ce-caf8-4d4a-8126-46c8c34eb622" />
+
 Now the dataframe `clinvar` is ready for filtering. We will filter this dataset for all variants that clinvar has marked as 'Pathogenic' or 'Conflicting_classifications_of_pathogenicity' that also have some possible splicing impact:
 
 ```python
@@ -104,5 +108,6 @@ sig_results = clinvar[
 ].copy()
 ```
 
-![alt text](image-2.png)
+<img width="2058" height="366" alt="image" src="https://github.com/user-attachments/assets/a1d516a0-c729-4d1b-9ff7-005e77f7ae93" />
+
 This leaves us with 76 variants that may be pathogenic because of their splice-altering effects. This can be a foundation for further review, or more analysis into the false negatives/positives produced by SpliceAI
