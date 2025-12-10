@@ -15,6 +15,10 @@ Overall, SpliceAI is widely used in genomic research, clinical variant interpret
 To understand SpliceAI, it is important to review how RNA splicing works. When a gene is transcribed, the initial RNA product (pre-mRNA) contains exons — the coding regions — and introns, which must be removed. Splicing is the process by which introns are cut out and exons are joined together to produce a mature mRNA capable of being translated into protein.
 
 <img width="1367" height="500" alt="image" src="https://github.com/user-attachments/assets/dfc7fd1f-68f9-4417-8955-56f66703dff9" />
+**Figure 1.** Overview of RNA splicing. Exons (coding regions) are retained, while introns are removed by the spliceosome to produce a mature mRNA transcript.  
+*Image source: Khan Academy, "RNA splicing."*  
+*Source: Khan Academy. "RNA splicing." https://cdn.kastatic.org/ka-perseus-images/3157cfd56297f8bc312c0b53bdf9dd8c09f07063.png*
+
 
 Splicing depends on specific sequence signals:
 
@@ -121,3 +125,4 @@ Jaganathan, K. (2024, July 24). SpliceAI (ClinGen Biocurator Working Group). You
 
 Landrum, M. J., Lee, J. M., Benson, M., Brown, G. R., Chao, C., Chitipiralla, S., Gu, B., Hart, J., Hoffman, D., Jang, W., Karapetyan, K., Katz, K., Liu, C., Maddipatla, Z., Malheiro, A., McDaniel, K., Ovetsky, M., Riley, G., Zhou, G., Holmes, J. B., … Maglott, D. R. (2018). ClinVar: improving access to variant interpretations and supporting evidence. Nucleic acids research, 46(D1), D1062–D1067. https://doi.org/10.1093/nar/gkx1153
 
+Khan Academy. (n.d.). *RNA splicing* [Diagram]. Retrieved from https://cdn.kastatic.org/ka-perseus-images/3157cfd56297f8bc312c0b53bdf9dd8c09f07063.png
