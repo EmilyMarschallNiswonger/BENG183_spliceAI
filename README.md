@@ -61,6 +61,7 @@ The model generates these scores for each nucleotide based on its positional con
 **Figure 3.** Gives an overview of how the deep learning model works and produces output scores. *(Figure 3, n.d.)*
 
 
+
 <img width="500" height="600" alt="image" src="https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-3.jpg"/>
 
 **Figure 4.** Shows an example where Splice AI-10k accurately predicts all 26 acceptor sites and all 26 donor sites for the CFTR gene, unlike another software known as MaxEntScan, which utilizes a very narrow/local window during analysis. *(Figure 4, n.d.)*
