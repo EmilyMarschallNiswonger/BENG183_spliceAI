@@ -4,7 +4,7 @@ Ryan Izadshenas, Srisarada Ramesh, Emily Marschall-Niswonger
 
 ### Introduction
 
-SpliceAI is a deep learning–based bioinformatics tool developed by Illumina to predict how genetic variants affect RNA splicing. Many disease-causing mutations do not alter protein-coding sequences directly but instead disrupt the splicing process that produces mature mRNA. SpliceAI was created to address this challenge by identifying whether a DNA variant will weaken, remove, or create splice sites.
+SpliceAI is a deep learning–based bioinformatics tool developed by Illumina to predict how genetic variants affect RNA splicing. Many disease-causing mutations do not alter protein-coding sequences directly but instead disrupt the splicing process that produces mature mRNA. SpliceAI was created to address this challenge by identifying whether a DNA variant will weaken, remove, or create splice sites. (Jaganathan et al., 2019)
 
 Traditional splice prediction tools rely on short sequence motifs and often miss complex or “cryptic” splicing changes. In contrast, SpliceAI analyzes a very large sequence window—up to 10,000 nucleotides around a variant—and learns splicing patterns directly from large transcriptomic datasets. This enables it to capture long-range regulatory signals and make much more accurate predictions.
 
@@ -120,6 +120,8 @@ This leaves us with 76 variants that may be pathogenic because of their splice-a
 
 ### References
 Jaganathan, K. (2024, July 24). SpliceAI (ClinGen Biocurator Working Group). YouTube. https://www.youtube.com/watch?v=oJvhj-tYbBI&t=1085s 
+
+Jaganathan, K., Panagiotopoulou, S. K., McRae, J. F., Darbandi, S. F., Knowles, D., Li, Y. I., Kosmicki, J. A., Arbelaez, J., Cui, W., Schwartz, G. B., Chow, E. D., Kanterakis, A., Gao, H., Kia, A., Batzoglou, S., Sanders, S. J., & Farh, K. K.-H. (2019). Predicting splicing from primary sequence with deep learning. *Cell, 176*(3), 535–548.e24. https://doi.org/10.1016/j.cell.2018.12.015
 
 Landrum, M. J., Lee, J. M., Benson, M., Brown, G. R., Chao, C., Chitipiralla, S., Gu, B., Hart, J., Hoffman, D., Jang, W., Karapetyan, K., Katz, K., Liu, C., Maddipatla, Z., Malheiro, A., McDaniel, K., Ovetsky, M., Riley, G., Zhou, G., Holmes, J. B., … Maglott, D. R. (2018). ClinVar: improving access to variant interpretations and supporting evidence. Nucleic acids research, 46(D1), D1062–D1067. https://doi.org/10.1093/nar/gkx1153
 
