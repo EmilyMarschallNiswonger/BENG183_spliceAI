@@ -44,11 +44,11 @@ Now that we know how Splice AI is built upon a deep learning model, we can move 
 
 First and foremost, it is important to note that there are a couple of Splice AI versions that exist. These include Splice AI-80nt, Splice AI-400nt, Splice AI-2k, Splice AI-10K. Of all these models, Splice AI-10k is known to be the most accurate version (Jaganathan, 2024). This is due to its capability to analyze a very large input, an input that is up to 10,000 nucleotides long. The other models analyze smaller inputs. For example, Splice AI-80nt can analyze only up to 80 nucleotides, which is far less than the range of Splice AI-10k. Eventually, Splice AI-10k is known to have a 95% top-k accuracy, which is the highest of all versions. 
 
-Therefore, Splice AI-10k is the prevalent model, and will be the focus of our report.
+Therefore, Splice AI-10k is the prevalent model, and the focus of our report.
 
 <img width="500" height="500" alt="image" src="https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-2.jpg"/>
 
-**Figure 2** Showcases the top-k accuracy values for different Splice AI versions as well as other similar splice-predicting softwares. *(Figure 2, n.d.)*
+**Figure 2.** Showcases the top-k accuracy values for different Splice AI versions as well as other similar splice-predicting softwares. *(Figure 2, n.d.)*
 
 #### How does Splice AI-10k work?
 
@@ -58,12 +58,12 @@ The model generates these scores for each nucleotide based on its positional con
 
 <img width="500" height="500" alt="image" src="https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-1.jpg"/>
 
-**Figure 3** Gives an overview of how the deep learning model works and produces output scores. *(Figure 3, n.d.)*
+**Figure 3.** Gives an overview of how the deep learning model works and produces output scores. *(Figure 3, n.d.)*
 
 
 <img width="500" height="600" alt="image" src="https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-3.jpg"/>
 
-**Figure 4** Shows an example where Splice AI-10k accurately predicts all 26 acceptor sites and all 26 donor sites for the CFTR gene, unlike another software known as MaxEntScan, which utilizes a very narrow/local window during analysis. *(Figure 4, n.d.)*
+**Figure 4.** Shows an example where Splice AI-10k accurately predicts all 26 acceptor sites and all 26 donor sites for the CFTR gene, unlike another software known as MaxEntScan, which utilizes a very narrow/local window during analysis. *(Figure 4, n.d.)*
 
 #### How does Splice AI-10k compare reference transcripts with variant transcripts?
 
