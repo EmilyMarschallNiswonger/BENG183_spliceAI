@@ -167,10 +167,25 @@ Considering the limitations of Splice AI, new tools have been introduced to bett
 Overall, it can be concluded that Splice AI is a highly efficient tool with a simple user interface and workflow that produces the necessary results in seconds. Its deep learning model makes it a highly favored tool among its predecessors. It can predict splice acceptor and splice donor sites with outstanding accuracy, unlike its predecessors. However, like any other tool, Splice AI has its own setbacks. Fortunately, modern tools, like Splam, are using Splice AI as their inspiration and build upon its algorithm to make better predictions. Therefore, Splice AI has made a lasting impact in the field of RNA-splicing analysis. 
 
 ### References
-Jaganathan, K. (2024, July 24). SpliceAI (ClinGen Biocurator Working Group). YouTube. https://www.youtube.com/watch?v=oJvhj-tYbBI&t=1085s 
+
+Canson, D. M., Davidson, A. L., de la Hoya, M., Parsons, M. T., Glubb, D. M., Kondrashova, O., & Spurdle, A. B. (2023). SpliceAI-10k calculator for the prediction of pseudoexonization, intron retention, and exon deletion. Bioinformatics (Oxford, England), 39(4), btad179. https://doi.org/10.1093/bioinformatics/btad179
+
+de Sainte Agathe, J. M., Filser, M., Isidor, B., Besnard, T., Gueguen, P., Perrin, A., Van Goethem, C., Verebi, C., Masingue, M., Rendu, J., Cossée, M., Bergougnoux, A., Frobert, L., Buratti, J., Lejeune, É., Le Guern, É., Pasquier, F., Clot, F., Kalatzis, V., Roux, A. F., … Baux, D. (2023). SpliceAI-visual: a free online tool to improve SpliceAI splicing variant interpretation. Human genomics, 17(1), 7. https://doi.org/10.1186/s40246-023-00451-1
+
+Illumina. (2018). GitHub - Illumina/SpliceAI: A deep learning-based tool to identify splice variants. GitHub; Illumina. https://github.com/Illumina/SpliceAI
+
+Illumina. (n.d.). Figure 2 [Digital]. Retrieved December 9, 2025, from https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-2.jpg
+
+Illumina. (n.d.-b). Figure 3 [Digital]. Retrieved December 9, 2025, from https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-1.jpg
+
+Illumina. (n.d.-c). Figure 4 [Digital]. Retrieved December 9, 2025, from https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-3.jpg
+
+Jaganathan, K. (2020, November 12). Predicting splicing from primary sequence with deep learning. Illumina.com; Illumina. https://www.illumina.com/science/genomics-research/articles/predict-splicing-primary-sequence-deep-learning.html
 
 Jaganathan, K., Panagiotopoulou, S. K., McRae, J. F., Darbandi, S. F., Knowles, D., Li, Y. I., Kosmicki, J. A., Arbelaez, J., Cui, W., Schwartz, G. B., Chow, E. D., Kanterakis, A., Gao, H., Kia, A., Batzoglou, S., Sanders, S. J., & Farh, K. K.-H. (2019). Predicting splicing from primary sequence with deep learning. *Cell, 176*(3), 535–548.e24. https://doi.org/10.1016/j.cell.2018.12.015
 
+Khan Academy. (n.d.). *RNA splicing* [Diagram]. Retrieved from https://cdn.kastatic.org/ka-perseus-images/3157cfd56297f8bc312c0b53bdf9dd8c09f07063.png
+
 Landrum, M. J., Lee, J. M., Benson, M., Brown, G. R., Chao, C., Chitipiralla, S., Gu, B., Hart, J., Hoffman, D., Jang, W., Karapetyan, K., Katz, K., Liu, C., Maddipatla, Z., Malheiro, A., McDaniel, K., Ovetsky, M., Riley, G., Zhou, G., Holmes, J. B., … Maglott, D. R. (2018). ClinVar: improving access to variant interpretations and supporting evidence. Nucleic acids research, 46(D1), D1062–D1067. https://doi.org/10.1093/nar/gkx1153
 
-Khan Academy. (n.d.). *RNA splicing* [Diagram]. Retrieved from https://cdn.kastatic.org/ka-perseus-images/3157cfd56297f8bc312c0b53bdf9dd8c09f07063.png
+
