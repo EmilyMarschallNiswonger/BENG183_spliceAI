@@ -46,7 +46,9 @@ First and foremost, it is important to note that there are a couple of Splice AI
 
 Therefore, Splice AI-10k is the prevalent model, and will be the focus of our report. 
 
-![Figure 2. Top-k accuracy values](https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-2.jpg "Top-k accuracy values")
+<img width="500" height="500" alt="image" src="https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-2.jpg"/>
+
+**Figure 2** Top-k accuracy values. Showcases the top-k accuracy values for different Splice AI versions as well as other similar splice-predicting softwares. *(Figure 2, n.d.)*
 
 
 ### Workflow
