@@ -14,6 +14,8 @@ Overall, SpliceAI is widely used in genomic research, clinical variant interpret
 
 To understand SpliceAI, it is important to review how RNA splicing works. When a gene is transcribed, the initial RNA product (pre-mRNA) contains exons — the coding regions — and introns, which must be removed. Splicing is the process by which introns are cut out and exons are joined together to produce a mature mRNA capable of being translated into protein.
 
+<img width="1367" height="500" alt="image" src="https://github.com/user-attachments/assets/dfc7fd1f-68f9-4417-8955-56f66703dff9" />
+
 Splicing depends on specific sequence signals:
 
 - Splice donor sites (5' splice sites) — located at the beginning of introns, typically starting with GU.
