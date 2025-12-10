@@ -38,7 +38,16 @@ SpliceAI applies this model to genomic sequences. According to Jaganathan (2020)
 
 By comparing the splicing predictions for the reference sequence and the mutated sequence, SpliceAI calculates whether a variant is likely to create or disrupt splice sites. This deep learning approach gives SpliceAI unmatched accuracy for detecting cryptic splice events and predicting the functional impact of many noncoding and synonymous variants.
 
-### The Function and Features of Splice AI
+### A Look Into Splice AI-10K
+
+Now that we know how Splice AI is built upon a deep learning model, we can move forward to understanding the details. 
+
+First and foremost, it is important to note that there are a couple of Splice AI versions that exist. These include Splice AI-80nt, Splice AI-400nt, Splice AI-2k, Splice AI-10K. Of all these models, Splice AI-10k is known to be the most accurate version (Jaganathan, 2020). This is due to its capability to analyze a very large input, an input that is up to 10,000 nucleotides long. The other models analyze smaller inputs. For example, Splice AI-80nt can analyze only up to 80 nucleotides, which is far less than the range of Splice AI-10k. Eventually, Splice AI-10k is known to have a 95% top-k accuracy, which is the highest of all versions. 
+
+Therefore, Splice AI-10k is the prevalent model, and will be the focus of our report. 
+
+![Figure 2. Top-k accuracy values](https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-2.jpg "Top-k accuracy values")
+
 
 ### Workflow
 
