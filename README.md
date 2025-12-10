@@ -16,7 +16,7 @@ To understand SpliceAI, it is important to review how RNA splicing works. When a
 
 <img width="1367" height="500" alt="image" src="https://github.com/user-attachments/assets/dfc7fd1f-68f9-4417-8955-56f66703dff9" />
 
-**Figure 1** Overview of RNA splicing. Exons are joined together while introns are removed to form mature mRNA. *Credit: Khan Academy* 
+**Figure 1** Overview of RNA splicing. Exons are joined together while introns are removed to form mature mRNA. *Image credit: Khan Academy* 
 
 Splicing depends on specific sequence signals:
 
