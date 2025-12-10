@@ -34,6 +34,8 @@ SpliceAI applies this model to genomic sequences. According to Jaganathan (2020)
 
 By comparing the splicing predictions for the reference sequence and the mutated sequence, SpliceAI calculates whether a variant is likely to create or disrupt splice sites. This deep learning approach gives SpliceAI unmatched accuracy for detecting cryptic splice events and predicting the functional impact of many noncoding and synonymous variants.
 
+### The Function and Features of Splice AI
+
 ### Workflow
 
 The user workflow is very simple, with few inputs and parameters. The user needs a .vcf (variant call format) file containing a list of variants to investigate, as well as a .vcf file name that they want their output stored. .vcf file format contains metadata as a header and a row for each variant with relevant information. More can be learned about .vcf file format [here](https://samtools.github.io/hts-specs/VCFv4.2.pdf).
