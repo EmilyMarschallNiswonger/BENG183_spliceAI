@@ -184,6 +184,8 @@ Jaganathan, K. (2020, November 12). Predicting splicing from primary sequence wi
 
 Jaganathan, K., Panagiotopoulou, S. K., McRae, J. F., Darbandi, S. F., Knowles, D., Li, Y. I., Kosmicki, J. A., Arbelaez, J., Cui, W., Schwartz, G. B., Chow, E. D., Kanterakis, A., Gao, H., Kia, A., Batzoglou, S., Sanders, S. J., & Farh, K. K.-H. (2019). Predicting splicing from primary sequence with deep learning. *Cell, 176*(3), 535–548.e24. https://doi.org/10.1016/j.cell.2018.12.015
 
+New AI tool pinpoints gene splicing with unmatched precision - Johns Hopkins Biomedical Engineering. (2024, December 4). Johns Hopkins Biomedical Engineering; Johns Hopkins Biomedical Engineering. https://www.bme.jhu.edu/news-events/news/new-ai-tool-pinpoints-gene-splicing-with-unmatched-precision/
+
 Khan Academy. (n.d.). *RNA splicing* [Diagram]. Retrieved from https://cdn.kastatic.org/ka-perseus-images/3157cfd56297f8bc312c0b53bdf9dd8c09f07063.png
 
 Landrum, M. J., Lee, J. M., Benson, M., Brown, G. R., Chao, C., Chitipiralla, S., Gu, B., Hart, J., Hoffman, D., Jang, W., Karapetyan, K., Katz, K., Liu, C., Maddipatla, Z., Malheiro, A., McDaniel, K., Ovetsky, M., Riley, G., Zhou, G., Holmes, J. B., … Maglott, D. R. (2018). ClinVar: improving access to variant interpretations and supporting evidence. Nucleic acids research, 46(D1), D1062–D1067. https://doi.org/10.1093/nar/gkx1153
