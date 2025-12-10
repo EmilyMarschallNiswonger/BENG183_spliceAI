@@ -42,7 +42,7 @@ By comparing the splicing predictions for the reference sequence and the mutated
 
 Now that we know how Splice AI is built upon a deep learning model, we can move forward to understanding the details. 
 
-First and foremost, it is important to note that there are a couple of Splice AI versions that exist. These include Splice AI-80nt, Splice AI-400nt, Splice AI-2k, Splice AI-10K. Of all these models, Splice AI-10k is known to be the most accurate version (Jaganathan, 2020). This is due to its capability to analyze a very large input, an input that is up to 10,000 nucleotides long. The other models analyze smaller inputs. For example, Splice AI-80nt can analyze only up to 80 nucleotides, which is far less than the range of Splice AI-10k. Eventually, Splice AI-10k is known to have a 95% top-k accuracy, which is the highest of all versions. 
+First and foremost, it is important to note that there are a couple of Splice AI versions that exist. These include Splice AI-80nt, Splice AI-400nt, Splice AI-2k, Splice AI-10K. Of all these models, Splice AI-10k is known to be the most accurate version (Jaganathan, 2024). This is due to its capability to analyze a very large input, an input that is up to 10,000 nucleotides long. The other models analyze smaller inputs. For example, Splice AI-80nt can analyze only up to 80 nucleotides, which is far less than the range of Splice AI-10k. Eventually, Splice AI-10k is known to have a 95% top-k accuracy, which is the highest of all versions. 
 
 Therefore, Splice AI-10k is the prevalent model, and will be the focus of our report.
 
@@ -54,13 +54,14 @@ Therefore, Splice AI-10k is the prevalent model, and will be the focus of our re
 
 The model takes in a pre-mRNA sequence as an input, traverses through the sequence, and generates a set of predicted output scores for each nucleotide. The output scores tell the likelihood that that specific nucleotide is an acceptor, donor, or neither. 
 
-The model generates these scores for each nucleotide based on its positional context. In other words, the model splits the input sequence into two regions, known as the upstream and downstream regions. These are the regions that come before and after the nucleotide of interest. Since Splice AI-10k utilizes a deep learning algorithm, it senses a nucleotide’s positional context by generating a window of analysis that covers a certain number of bases upstream and downstream. Such a cohesive analysis procedure eventually enables the model to understand long intron and exon sequences relative to the nucleotide’s position that may otherwise remain invisible to the model. This drastically increases the chances of the model making accurate predictions regarding whether the nucleotide of interest is indeed a splice acceptor or splice donor site (Jaganathan, 2020). 
+The model generates these scores for each nucleotide based on its positional context. In other words, the model splits the input sequence into two regions, known as the upstream and downstream regions. These are the regions that come before and after the nucleotide of interest. Since Splice AI-10k utilizes a deep learning algorithm, it senses a nucleotide’s positional context by generating a window of analysis that covers a certain number of bases upstream and downstream. Such a cohesive analysis procedure eventually enables the model to understand long intron and exon sequences relative to the nucleotide’s position that may otherwise remain invisible to the model. This drastically increases the chances of the model making accurate predictions regarding whether the nucleotide of interest is indeed a splice acceptor or splice donor site (Jaganathan, 2024). 
 
 <img width="500" height="500" alt="image" src="https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-1.jpg"/>
 
 **Figure 3** Gives an overview of how the deep learning model works and produces output scores. *(Figure 3, n.d.)*
 
-<img width="500" height="500" alt="image" src="https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-3.jpg"/>
+
+<img width="500" height="600" alt="image" src="https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-3.jpg"/>
 
 **Figure 4** Shows an example where Splice AI-10k accurately predicts all 26 acceptor sites and all 26 donor sites for the CFTR gene, unlike another software known as MaxEntScan, which utilizes a very narrow/local window during analysis. *(Figure 4, n.d.)*
 
