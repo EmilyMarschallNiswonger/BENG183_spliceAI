@@ -184,6 +184,8 @@ Illumina. (n.d.-b). Figure 3 [Digital]. Retrieved December 9, 2025, from https:/
 
 Illumina. (n.d.-c). Figure 4 [Digital]. Retrieved December 9, 2025, from https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-3.jpg
 
+Illumina. (n.d.-d). Figure 5 [Digital]. Retrieved December 9, 2025, from https://assets.illumina.com/content/dam/illumina-marketing/images/genomics-research/articles/splice-ai/figure-4.jpg
+
 Jaganathan, K. (2020, November 12). Predicting splicing from primary sequence with deep learning. Illumina.com; Illumina. https://www.illumina.com/science/genomics-research/articles/predict-splicing-primary-sequence-deep-learning.html
 
 Jaganathan, K., Panagiotopoulou, S. K., McRae, J. F., Darbandi, S. F., Knowles, D., Li, Y. I., Kosmicki, J. A., Arbelaez, J., Cui, W., Schwartz, G. B., Chow, E. D., Kanterakis, A., Gao, H., Kia, A., Batzoglou, S., Sanders, S. J., & Farh, K. K.-H. (2019). Predicting splicing from primary sequence with deep learning. *Cell, 176*(3), 535–548.e24. https://doi.org/10.1016/j.cell.2018.12.015
